@@ -5,16 +5,16 @@ UILib:SetMenuSize(Vector2.new(420, 500))
 UILib:CenterMenu()
 
 local visualTab = UILib:Tab('Visual')
-visualTab:Section('Visual')
-visualTab:Section('Visual')
+visualTab:Section('1')
+visualTab:Section('2')
 
 local combatTab = UILib:Tab('Combat')
-combatTab:Section('Combat')
-combatTab:Section('Combat')
+combatTab:Section('1')
+combatTab:Section('2')
 
 local miscTab = UILib:Tab('Misc')
-miscTab:Section('Misc')
-miscTab:Section('Misc')
+miscTab:Section('1')
+miscTab:Section('2')
 
 local settingsTab, menuSection, themingSection = UILib:CreateSettingsTab('Settings')
 
@@ -31,4 +31,5 @@ UILib:Notification('Menu loaded! Press F1 to toggle.', 5)
 
 while true do
     UILib:Step()
+
 end
