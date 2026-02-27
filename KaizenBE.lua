@@ -14,20 +14,15 @@ UILib:SetMenuTitle('Kaizen | Better Experience')
 UILib:SetMenuSize(Vector2.new(420, 500))
 UILib:CenterMenu()
 
--- Visual Tab (Stays First)
+-- Visual Tab
 local visualTab = UILib:Tab('Visual')
 visualTab:Section('1')
 visualTab:Section('2')
 
--- Misc Tab (Now Second)
+-- Misc Tab
 local miscTab = UILib:Tab('Misc')
 miscTab:Section('1')
 miscTab:Section('2')
-
--- Combat Tab (Now Third)
-local combatTab = UILib:Tab('Combat')
-combatTab:Section('1')
-combatTab:Section('2')
 
 -- Settings Tab
 local settingsTab, menuSection, themingSection = UILib:CreateSettingsTab('Settings')
